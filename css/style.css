@@ -89,7 +89,9 @@ main{
     display: flex;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 100px;
+}
+.boton{
+    width: 300px;
     height: 300px;
 }
 .hogarimg{
