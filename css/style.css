@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    font-family: "poppins", sans-serif;
+    color: #2D2234;
+    text-decoration: none; 
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+header{ 
+    display: flex;     
+    background-color: #E4E1E1;
+    background-size: contain;
+}
+.cabecera{
+    margin-left: 100px;
+    padding: 7px;
+    display: flex;
+}
+.regresar{
+    display: flex;
+    justify-content: end;
+    margin-right: 100px;
+}
+.volver{
+    align-content: flex-end;
+    left: 100px;
+}
+main{
+    display: flex;
+    flex-flow: column;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+    padding: 20px;
+    flex-wrap: nowrap;
+}
+.categorias{
+    font-family: "poppins", sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+.iconmenu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    right: 100px;
+}
+.portada{
+    height: 400px;
+    width: 100%;
+    background-image: url(../img/griferias.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: "poppins", sans-serif;
+}
+.opciones{
+    font-family: "poppins", sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: wrap;
+    padding: 5px;
+    background-color: #2D2234;
+    color: white;
+}
+.clasif{
+    display: flex;
+    font-family: "poppins", sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 30px;
+}
+.banner{
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px;
+    height: 300px;
+}
+.hogarimg{
+    background-color: yellowgreen;
+    background-image: url(/img/hogar.png);
+}
+.bañoimg{
+    background-image: url(/img/baño.png);
+    background-color: yellowgreen;
+}
+.instimg{
+    background-color: yellowgreen;
+    background-image: url(/img/instalaciones.png);
+}
+.griferia{
+    background-size: contain;
+    font-family: "poppins", sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+/*.lavatorio1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}*/
+.descr{
+    font-size: 16px;
+}
+.imglav{
+    height: 250px;
+}
+.precio{
+    display: flex;
+    flex-direction: row;
+}
+.boton1~.boton2{
+    font-family: "poppins", sans-serif;
+}
+.bolsita{
+    height: 20px;
+}
