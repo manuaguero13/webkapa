@@ -87,24 +87,25 @@ main{
 }
 .banner{
     display: flex;
+    justify-content: center;
+    align-items: flex-end;
     background-repeat: no-repeat;
-    background-position: center;
-}
-.boton{
     width: 300px;
     height: 300px;
 }
 .hogarimg{
-    background-color: yellowgreen;
     background-image: url(/img/hogar.png);
 }
 .bañoimg{
     background-image: url(/img/baño.png);
-    background-color: yellowgreen;
 }
 .instimg{
-    background-color: yellowgreen;
     background-image: url(/img/instalaciones.png);
+}
+.boton{
+    background-color: rgba(255, 255, 0, 0.842);
+    height: 14%;
+    margin: 6%;
 }
 .griferia{
     background-size: contain;
