@@ -84,10 +84,21 @@
         <li><img src="./img/bolsa.png" alt="iconocompra"> </li>
       </ul>
     </div>
-    <div class="menu-mobile">
+    <div class="menu-mobile" id="menuMobile">
       <div class="hamburguesa-lupa">
-        <a href="#">
+        <a href="#" id="hamburgesa">
           <img src="./img/hamburguesa2.png" alt="menu-mobile">
+          <ul class="menu-mobile-content">
+              <li class="menu-title"><a href="#"><span>Hogar</span></a></li>
+              <li class="menu-subtitle"><a href="#">Griferías</a></li>
+              <li class="menu-subtitle"><a href="#">Muebles para Baño</a></li>
+              <li class="menu-subtitle"><a href="#">Muebles para Cocina</a></li>
+              <li class="menu-subtitle"><a href="#">Sanitarios</a></li>
+              <li class="menu-title"><a href="#"><span>Baños y Cocinas</span></a></li>
+              <li class="menu-title"><a href="#"><span>Instalaciones</span></a></li>
+              <li class="menu-title"><a href="#"><span>Construcción</span></a></li>
+              <li class="menu-title"><a href="#"><span>Herramientas</span></a></li>
+            </ul>
         </a>
         <a href="#">
           <img src="./img/lupa.png" alt="">
@@ -529,6 +540,11 @@
         crossorigin="anonymous"></script>
     <script>
         $('.carousel').carousel()
+        var hamburgesa = document.getElementById('hamburgesa');
+        hamburgesa.addEventListener('click', function(){
+          var menuMobile = document.getElementById('menuMobile');
+          menuMobile.classList.toggle('visible');
+        })
     </script>
 
 </body>
