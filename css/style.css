@@ -67,6 +67,10 @@ main{
     padding: 20px;
     flex-wrap: nowrap;
 }
+
+.menu-mobile {
+    display: none;
+}
 .menu img{
     z-index: 12;
 }
@@ -304,6 +308,11 @@ li:hover .menu-desplegable{
 .newsletter{
     margin-top: 40px;
 }
+
+.carousel-inner2{
+    display: none;
+}
+
 .carousel-indicators li {
     height: 20px !important;
     border-radius: 50px;
@@ -416,7 +425,7 @@ p {
     margin-bottom: 0;
 }
 
-footer{
+footer .content{
     display: flex;
     justify-content: space-evenly;
     color: #404040;
@@ -429,4 +438,81 @@ footer h2{
 
 footer li a{
     font-size: 14px;
+}
+
+footer .copyright{
+    font-size: 14px;
+    text-align: center;
+    padding: 20px;
+}
+
+.copyright img{
+    margin-bottom: 5px;
+}
+
+
+@media(max-width:700px) {
+    * {
+        font-size: 10px;
+    }
+    .cabecera {
+        margin: 0;
+    }
+    .cabecera img {
+        height: 12px;
+    }
+
+    a.tel {
+        display: none;
+    }
+
+    .menu{
+        display: none;
+        border-right: none;
+    }
+
+    .menu-mobile{
+        display: block;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .menu-mobile div{
+        display: flex;
+    }
+
+    .menu-mobile img{
+        height: 20px;
+    }
+
+    .logo-mobile img{
+        height: 60px;
+    }
+    .carousel-inner{
+        display: none;
+    }
+    .carousel-inner2{
+        display: block;
+    }
+    .info{
+        top: 50%;
+    }
+    
+    .titulo {
+        font-size: 20px;
+    }
+
+    .descuento-boton {
+        display: flex;
+    }
+
+    .descuento {
+        font-size: 32px
+    }
+    button.amarillo {
+        font-size: 14px;
+        padding: 0 9px;
+        margin: 18px;
+    }
 }
