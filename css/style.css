@@ -205,12 +205,27 @@ li:hover .menu-desplegable{
 .griferia{
     font-family: "poppins", sans-serif;
 }
+.griferiacocina{
+    font-family: "poppins", sans-serif;
+    text-align: center;
+}
+.proddes{
+    font-family: "poppins", sans-serif;
+    text-align: center;
+}
+.grifcoci{
+    display:flex;
+    justify-content: center;
+}
 .productos{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 0 300px
+    align-items: center;
+    margin: 0px 200px;
+    ;
 }
+
 .classh2{
     background-size: contain;
     font-family: "poppins", sans-serif;
@@ -249,12 +264,13 @@ li:hover .menu-desplegable{
 }
 .botonp{
     font-family: "poppins", sans-serif;
+    font-size: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     width: 90px;
-    padding: 1%;
+    padding: 4px;
     border-radius: 10px;
     margin: 3px;
 }
@@ -278,7 +294,16 @@ li:hover .menu-desplegable{
     margin-top: 40px;
     margin-bottom: 40px;
 }
-
+.banner2{
+    height: 300px;
+    background-image: url(/img/t/Ban2.png);
+    background-size: cover;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.newsletter{
+    margin-top: 40px;
+}
 .carousel-indicators li {
     height: 20px !important;
     border-radius: 50px;
