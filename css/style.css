@@ -524,16 +524,6 @@ footer .copyright{
     section.newsletter {
         flex-direction: column;
     }
-    section.redes-sociales {
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-    .content {
-        flex-direction: column;
-        flex-wrap: wrap;
-        margin-left: 106px;
-        justify-content: center;
-    }
     .clasif {
         flex-wrap: wrap;
     }
