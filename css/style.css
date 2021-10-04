@@ -221,15 +221,15 @@ li:hover .menu-desplegable{
     height: 300px;
 }
 .hogarimg{
-    background-image: url(/img/hogar.png);
+    background-image: url(./img/hogar.png);
     background-size: cover;
 }
 .bañoimg{
-    background-image: url(/img/baño.png);
+    background-image: url(./img/baño.png);
     background-size:cover;
 }
 .instimg{
-    background-image: url(/img/instalaciones.png);
+    background-image: url(./img/instalaciones.png);
     background-size:cover;
 }
 .boton{
@@ -324,14 +324,14 @@ li:hover .menu-desplegable{
 }
 .banner1{
     height: 300px;
-    background-image: url(/img/t/BN1.png);
+    background-image: url(./img/t/BN1.png);
     background-size: cover;
     margin-top: 40px;
     margin-bottom: 40px;
 }
 .banner2{
     height: 300px;
-    background-image: url(/img/t/Ban2.png);
+    background-image: url(./img/t/Ban2.png);
     background-size: cover;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -584,10 +584,10 @@ footer .content-mobile{
         margin-bottom: 20px;
     }
     .banner1{
-        background-image: url(/img/Res/Grupo\ 4693.png);
+        background-image: url(./img/Res/Grupo\ 4693.png);
     }
     .banner2{
-        background-image: url(/img/Res/Grupo\ 5746.png);
+        background-image: url(./img/Res/Grupo\ 5746.png);
     }
     .redes-sociales{
         display: none;
