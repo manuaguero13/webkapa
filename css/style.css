@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,900&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
@@ -12,10 +12,17 @@ a{
     align-items: center;
     margin: 5px;
 }
+
+a:hover{
+    text-decoration: none;
+    font-weight: 600;
+    color: #2D2234;
+}
 header{ 
     display: flex;     
     background-color: #E4E1E1;
     background-size: contain;
+    justify-content: space-between;
 }
 .cabecera{
     margin-left: 100px;
@@ -132,4 +139,53 @@ main{
 }
 .bolsita{
     height: 20px;
+}
+.carousel-indicators li {
+    height: 20px !important;
+    border-radius: 50px;
+    width: 20px !important;
+    background-color: #2d223480;
+    cursor: pointer;
+}
+
+.carousel-indicators .active {
+    background-color: #2D2234 !important;
+}
+
+.carousel-control-prev {
+    display: none;
+}
+
+.carousel-control-next {
+    display: none;
+}
+
+.info {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    z-index: 10;
+    top: 20%;
+    left: 10%;
+}
+
+.amarillo {
+    background-color: #F4FA1E;
+    margin: 10px;
+    width: fit-content;
+    padding: 0 20px;
+}
+
+.titulo{
+    font-size: 50px;
+}
+
+.descuento{
+    font-size: 80px;
+    font-weight: 900;
+}
+
+button.amarillo {
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
 }
