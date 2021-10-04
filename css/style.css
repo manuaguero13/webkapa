@@ -527,5 +527,47 @@ footer .copyright{
     .clasif {
         flex-wrap: wrap;
     }
+    .boton {
+        font-size: 27px;
+        font-weight: 700;
+        padding: 0 20px;
+    }
+
+    .banner {
+        margin-bottom: 20px;
+    }
+    .banner1{
+        background-image: url(/img/Res/Grupo\ 4693.png);
+    }
+    .banner2{
+        background-image: url(/img/Res/Grupo\ 5746.png);
+    }
+    .redes-sociales{
+        display: none;
+    }
+
+    footer .content{
+        display: none;
+    }
+
+    footer .content-mobile{
+        background-color: grey;
+    }
+    footer .content-mobile {
+        background-color: #d4dbe1;
+        padding: 20px;
+    }
+    footer .content-mobile a {
+        padding: 4px;
+        border-bottom: 1px solid #000;
+        margin: 0 20px;
+        font-weight: 600;
+    }
+    .copyright{
+        background-color: #d4dbe1;
+    }
+    .opciones{
+        display: none;
+    }
 
 }
